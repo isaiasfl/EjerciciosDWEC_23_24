@@ -32,7 +32,7 @@ git config --global user.name "tu_nombre_de_github"
 1. Nos aseguramos que estamos en la rama :
 
    ```bash
-     git branch <-- ramas que tenemos.
+     git branch
    ```
 
 1. Ahora abrimos con visual studio code y realizamos el ejercicio correspondiente.
