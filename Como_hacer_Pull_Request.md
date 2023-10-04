@@ -4,15 +4,17 @@
 > Antes de comenzar nos aseguramos que tenemos en el config de git tu email y tu name
 
 ```bash
-
 git config --list o  git config --global --list
 # Para añadirlos :
 git config --global user.email "tu_email"
 git config --global user.name "tu_nombre_de_github"
-
 ```
 
 > Recuerda usal --global si deseas que dicha configuración esté disponible en todos tus proyectos con git.
+
+---
+
+## Pasos📑
 
 1. Pulsamos en Fork para realizar una copia de un proyecto a mi github personal.
 
@@ -55,3 +57,7 @@ git config --global user.name "tu_nombre_de_github"
    ```
 
 1. Ahora ya en github nos vamos a la rama y pulsamos en `'contribute'`.
+
+---
+
+@IsaíasFL
