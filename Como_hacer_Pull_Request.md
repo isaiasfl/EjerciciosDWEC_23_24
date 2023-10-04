@@ -1,7 +1,6 @@
 # Creación de PULL REQUEST
 
-> Nota:
-> Antes de comenzar nos aseguramos que tenemos en el config de git tu email y tu name
+> **_Nota:_** > _Antes de comenzar nos aseguramos que tenemos en el config de git tu email y tu name_
 
 ```bash
 git config --list o  git config --global --list
@@ -10,7 +9,7 @@ git config --global user.email "tu_email"
 git config --global user.name "tu_nombre_de_github"
 ```
 
-> Recuerda usal --global si deseas que dicha configuración esté disponible en todos tus proyectos con git.
+> _Recuerda usal --global si deseas que dicha configuración esté disponible en todos tus proyectos con git._
 
 ---
 
