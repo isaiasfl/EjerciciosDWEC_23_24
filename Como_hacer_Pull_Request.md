@@ -38,7 +38,7 @@ git config --global user.name "tu_nombre_de_github"
 
 1. Ahora abrimos con visual studio code y realizamos el ejercicio correspondiente.
 
-1. Cuando hemos realizado nuestra taera comiteamos nuestros cambios a nuestra rama.
+1. Cuando hemos realizado nuestra taera añadimos los cambios al `stage area` de nuestra rama.
 
    ```bash
    git add --all
@@ -50,13 +50,15 @@ git config --global user.name "tu_nombre_de_github"
    git commit -m "nombre de lo realizado"
    ```
 
-1. Si la rama no está en remoto el siguiente comando comitea en esa rama y si no existe lo crea.
+1. Si la rama no está en remoto el siguiente comando comitea en esa rama y si no existe la crea.
 
    ```bash
    git push origin nombre_rama_a_remoto
    ```
 
-1. Ahora ya en github nos vamos a la rama y pulsamos en `'contribute'`.
+1. Ahora ya en github nos vamos a la rama y pulsamos en `'contribute'` para enviar nuestras propuestas de ejercicios al repositorio con los ejercicios de este curso.
+
+1. Se deben de enviar los ejercicios dentro de carpetas con el número de ejercicio. Por ejemplo creamos una carpeta con el nombre **_ej1_** y dentro el ejercicio resuelto.
 
 ---
 
