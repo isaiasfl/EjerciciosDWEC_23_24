@@ -1,6 +1,6 @@
 ## Listado de Ejercicios 📑 y el alumnado 🏃‍♂️🏃‍♀️ asociado a cada ejercicio 🛠️
 
-[A través del manual](Como_hacer_pull_request.md), el alumnado debe de realizar un Pull Request(PR) al repositorio de ejercicios.
+[A través del manual](https://github.com/isaiasfl/EjerciciosDWEC_23_24/blob/main/Como_hacer_Pull_Request.md), el alumnado debe de realizar un Pull Request(PR) al repositorio de ejercicios.
 | | | | | |
 | -------------------------------- | ------------------- | -------------------- | ---------------------- | ------------------------ |
 | | `Relación I Arrays` | `Relación II Arrays` | `Relación III Objetos` | `Relación IV Prototipos` |

@@ -1,9 +1,9 @@
 # EjerciciosDWEC_23_24
 
 A través de este repositorio se va a poner a disposición del alumnado, realaciones de ejercicios que se deben de entregar a través de un Pull Request a este repositorio.
-En este fichero aparece cada alumno con el ejercicio que debe realizar:
+En 📁 [este fichero](https://github.com/isaiasfl/EjerciciosDWEC_23_24/blob/main/Ejercicios_asociados_a_cada_alumno_a.md) aparece cada alumno con el ejercicio que debe realizar:
 
-Para ellos he realizado una breve explicación de como realizarlo.
+Para ello he realizado una breve explicación de como realizarlo.
 
 ## Crear un Fork de un Repositorio en GitHub
 
