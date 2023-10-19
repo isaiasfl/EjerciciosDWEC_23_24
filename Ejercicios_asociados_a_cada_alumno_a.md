@@ -6,12 +6,12 @@
 | | `Relación I Arrays` | `Relación II Arrays` | `Relación III Objetos` | `Relación IV Prototipos` |
 | **Alumno** | | | | |
 | Álvarez Martín, Carlos | | 25 | | 6 |
-| Amador Castellano, Rafael | 4 | | 2 | |
-| Comino Ruiz, Jairo David | 3 | | | |
-| García García, Arturo | | | 1 | |
+| Amador Castellano, Rafael | 4 | | | |
+| Comino Ruiz, Jairo David | 3 | | 2 | |
+| García García, Arturo | 10| | 1 | |
 | Gómez Osorio, Carlos | | | 16 | |
 | Iglesias Prieto, Ambrosio | 2 | | | |
-| Jiménez Malpica, Alberto | 10 | | 17 | |
+| Jiménez Malpica, Alberto | | | 17 | |
 | Luque Santaella, Cristina | 9 | | | |
 | Martínez Peinado, Abel | | | 3 | 7 |
 | Molina Morales, Antonio Samuel | 8 | | | |
