@@ -1,6 +1,8 @@
 # EjerciciosDWEC_23_24
 
 A través de este repositorio se va a poner a disposición del alumnado, realaciones de ejercicios que se deben de entregar a través de un Pull Request a este repositorio.
+En este fichero aparece cada alumno con el ejercicio que debe realizar:
+
 Para ellos he realizado una breve explicación de como realizarlo.
 
 ## Crear un Fork de un Repositorio en GitHub
