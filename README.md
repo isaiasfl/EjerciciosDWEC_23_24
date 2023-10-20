@@ -28,7 +28,7 @@ Un "Pull Request" es una forma de proponer cambios (en nuestro caso entregar los
 1. Clona tu Fork del repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_FORK.git
+   git clone https://github.com/isaiasfl/EjerciciosDWEC_23_24.git
    ```
 
 2. Crea una **nueva rama** en la que trabajar. Esto te ayudará a mantener tus cambios separados de la rama principal del proyecto.
