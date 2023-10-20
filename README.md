@@ -7,6 +7,7 @@ En 📁 [este fichero](https://github.com/isaiasfl/EjerciciosDWEC_23_24/blob/mai
 
 - Todos los ejercicios deben de tener una cabecera como la explicada en clase, con vuestro nombre, descripción, etc.
 - Todas las funciones deben de estar documentadas.
+- Adicionalmente añadir comentarios para clarificar/explicar cuestiones que consideréis relevantes.
 
 ___
 
