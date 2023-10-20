@@ -2,7 +2,7 @@
 
 [A través del manual](https://github.com/isaiasfl/EjerciciosDWEC_23_24/blob/main/Como_hacer_Pull_Request.md), el alumnado debe de realizar un Pull Request(PR) al repositorio de ejercicios.
 | | | | | |
-|:-------------------------------- |:-------------------:| :--------------------: | :----------------------: | :------------------------: |
+|:--------------------------------|:-------------------:| :--------------------: | :----------------------: | :------------------------: |
 | | `Relación I Arrays` | `Relación II Arrays` | `Relación III Objetos` | `Relación IV Prototipos` |
 | **Alumno** | | | | |
 | Álvarez Martín, Carlos | | 25 | | 6 |
