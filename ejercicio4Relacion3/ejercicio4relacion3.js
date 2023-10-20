@@ -1,7 +1,7 @@
 
 
-// Author : PckProgramador
-//Arrow function que crea un objeto a partir de una cadena que va a ser 
+// @Author : PckProgramador
+// @Description:Arrow function que crea un objeto a partir de una cadena que va a ser 
 //el valor de la propiedad. Hay que poner los parentesis para que diferencie
 // que es un objeto y no una apertura de llaves estandar.
 
