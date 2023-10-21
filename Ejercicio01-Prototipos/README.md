@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <p align="center"> Tienda de Libros - Ejercicio 01 Relación IV Prototipos.</p>
- <img src="https://raw.githubusercontent.com/RogerCiv/repo-imagenes/main/titulo.png?token=GHSAT0AAAAAACHNTMC6DSZKCDF5IJYIGN3KZJTT4AA" alt="titulo">
+ <img src="assets/titulo.png" alt="titulo">
 </h1>
 
 Este es un proyecto de ejemplo que modela una tienda de libros. Permite agregar libros, eliminar libros y calcular el precio total de los libros en el inventario.
@@ -97,7 +97,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 ## Captura Pantalla
 
-![web](https://raw.githubusercontent.com/RogerCiv/repo-imagenes/main/libros.png?token=GHSAT0AAAAAACHNTMC6FR2ZTWHRRVLKPHTAZJTUBCQ)
+![web](assets/libros.png)
 
 
 # Contacto
