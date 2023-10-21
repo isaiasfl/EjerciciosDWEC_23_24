@@ -5,7 +5,7 @@
 
 // --------------------- IMPORTS ----------------------------------
 
-import { libroFuncional } from './assets/modules';
+import { libroFuncional } from './assets/modules.js';
 // Importar Bootstrap. Previamente se instala con "npm i bootstrap@5.3.2"
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';

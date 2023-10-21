@@ -68,7 +68,6 @@ export function libroFuncional(title,author,price){
       if(NaN(newPrice) && newPrice > 0){
         this._price = newPrice;
       }
-      //this._price = false;
     }
   })
 }
