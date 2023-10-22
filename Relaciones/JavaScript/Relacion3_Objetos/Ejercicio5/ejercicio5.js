@@ -10,7 +10,6 @@
  * @param {*} b - El valor del objeto, tomado de la variable "b".
  * @returns {Object} Un objeto con la clave y el valor especificados.
  */
-
 function f(a,b) {
     const objeto = {
         [a] : b,
