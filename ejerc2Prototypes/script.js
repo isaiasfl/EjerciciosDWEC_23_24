@@ -40,7 +40,9 @@ miDieta.agregarAlimento(comida2);
 miDieta.agregarAlimento(comida3);
 miDieta.agregarAlimento(comida4);
 
-// Funciones para mostrar datos
+/**
+ * Muestra la lista de alimentos consumidos en el elemento "listaAlimentos".
+ */
 function mostrarListaAlimentos() {
     const listaAlimentosDiv = document.getElementById("listaAlimentos");
     listaAlimentosDiv.innerHTML = miDieta.listarAlimentosConsumidos().join("<br>");
@@ -48,6 +50,9 @@ function mostrarListaAlimentos() {
     seccionLista.style.display = "block";
 }
 
+/**
+ * Muestra el total de calorías consumidas en el elemento "totalCalorias".
+ */
 function mostrarTotalCalorias() {
     const totalCaloriasDiv = document.getElementById("totalCalorias");
     const totalCalorias = miDieta.calcularTotalCalorias();
