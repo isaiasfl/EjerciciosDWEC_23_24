@@ -7,8 +7,8 @@
 /**
  * Función de comprobación de palindromidad
  * 
- * @param {String} palabra 
- * @returns {Boolean}
+ * @param {String} palabra La palabra que se quiere comprobar si es palíndroma
+ * @returns {Boolean} True si la palabra es palíndroma, false en caso contrario
  */
 const esPalindromo = (palabra) =>
   // Cojemos la mitad de la palabra y comprobamos
@@ -22,3 +22,7 @@ const esPalindromo = (palabra) =>
     .reverse()
     .join("")
     .slice(0, palabra.length / 2);
+
+// ejemplo:
+console.log(esPalindromo('patata')); // false
+console.log(esPalindromo('patatap')); // true

@@ -10,9 +10,9 @@
  * Función que multiplica los valores de un objeto por un número.
  * No modifica el objeto inicial, sino que devuelve un objeto nuevo.
  * 
- * @param {Object} a
- * @param {Number} b
- * @returns {Object}
+ * @param {Object} a Objeto inicial cuyos valores serán multiplicados por b (si son números)
+ * @param {Number} b Número por el que multiplicar los valores del objeto a
+ * @returns {Object} Objeto nuevo con los valores multiplicados.
  */
 const multiplicaPorNumero = (a, b) =>
   // Devolvemos un objeto creado con las entradas multiplicadas
@@ -35,3 +35,8 @@ function multiplicaPorNumero(a,b) {
     return a;
 }
 */
+
+// ejemplo:
+const objeto = { a: 1, b: 2, c: 'perro'};
+const numero = 5;
+console.log(multiplicaPorNumero(objeto, numero));
