@@ -32,7 +32,7 @@
 | Arroyo Calvo, Miguel | 5 | | 13 | |
 | Cordón Castillo, José Manuel | | 13 | | 3 |
 | Gozalbes Mendoza, Carlos | | 14 | 15 | |
-| Jurado Trillo, Sergio | | 15,22 | | |
+| Jurado Trillo, Sergio | | 15, 22 | | |
 | Marín Vilches, Martín | | 16 | | |
 | Ochoa Domínguez, Raisa Julia | | 17 | | |
 | Ortega Martínez, Pablo | | 18 | | |
