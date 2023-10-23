@@ -32,11 +32,11 @@
 | Arroyo Calvo, Miguel | 5 | | 13 | |
 | Cordón Castillo, José Manuel | | 13 | | 3 |
 | Gozalbes Mendoza, Carlos | | 14 | 15 | |
-| Jurado Trillo, Sergio | | 15 | | |
+| Jurado Trillo, Sergio | | 15,22 | | |
 | Marín Vilches, Martín | | 16 | | |
 | Ochoa Domínguez, Raisa Julia | | 17 | | |
 | Ortega Martínez, Pablo | | 18 | | |
 | Pérez de la Blanca Cubero, Rubén | | 19 | 12 | |
 | Polanco Beard, Daulin | | 20 | | |
 | Robles Gómez, Salvador | | 21 | 11 | |
-| Rodríguez Merino, Luis Eduardo | | 22 | | |
+| Rodríguez Merino, Luis Eduardo | |  | | |
