@@ -12,8 +12,8 @@ const pasos = 4;
 
 /**
  * Esta función muestra una array obtenida a partir de la rotación de los pasos.
- * @param {Array} arr 
- * @param {number} pasos 
+ * @param {Array} arr Array que sera rotada.
+ * @param {number} pasos Numeros de pasos que se va a realizar la rotación. Numeros positivos rota a la derecha y negativos a la izquierda.
  * @returns Devuelve una array. 
  */
 function rotarArray(arr, pasos) {

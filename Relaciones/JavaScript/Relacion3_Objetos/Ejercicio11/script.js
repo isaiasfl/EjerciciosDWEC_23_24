@@ -21,9 +21,9 @@ const obj2 = {
 }
 /**
  * Función que fusiona dos objetos y lo devuelve uno solo. 
- * @param {object} obj1 
- * @param {object} obj2 
- * @returns Devuelve un objeto.
+ * @param {object} obj1 Primer objeto que fusionaremos.
+ * @param {object} obj2 Segundo objeto que fusionaremos.
+ * @returns Devuelve un Objeto.
  */
 function fusionar(obj1, obj2){
  
