@@ -11,10 +11,10 @@ const arr = [1,2,3,4,5,6,7,8,9,10];
 const pasos = 4;
 
 /**
- * Esta funcion muestra una array obtenida a partir de la rotacion de los pasos.
+ * Esta función muestra una array obtenida a partir de la rotación de los pasos.
  * @param {Array} arr 
  * @param {number} pasos 
- * @returns Delvuelve una array. 
+ * @returns Devuelve una array. 
  */
 function rotarArray(arr, pasos) {
 

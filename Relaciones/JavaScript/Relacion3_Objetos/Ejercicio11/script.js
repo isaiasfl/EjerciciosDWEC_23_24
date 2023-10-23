@@ -20,7 +20,7 @@ const obj2 = {
     e : 5,
 }
 /**
- * Funcion que fusiona dos objetos y lo devuelve uno solo. 
+ * Función que fusiona dos objetos y lo devuelve uno solo. 
  * @param {object} obj1 
  * @param {object} obj2 
  * @returns Devuelve un objeto.
