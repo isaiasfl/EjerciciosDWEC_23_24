@@ -39,4 +39,4 @@ function multiplicaPorNumero(a,b) {
 // ejemplo:
 const objeto = { a: 1, b: 2, c: 'perro'};
 const numero = 5;
-console.log(multiplicaPorNumero(objeto, numero));
+console.log(multiplicaPorNumero(objeto, numero)); // { a: 5, b: 10, c: 'perro' }
