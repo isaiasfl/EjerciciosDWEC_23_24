@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Gestión de Empleados</title>
+    <style>
+      body {
+        background-color: #cae0fc !important; /* Color azul cielo */
+      }
+    </style>
+    <!-- Agregar enlaces a los archivos CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Sistema de Gestión de Empleados</h1>
+      <hr />
+      <form id="agregarEmpleadoForm">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre y Apellidos: </label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              name="nombre"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="rol" class="form-label">Rol:</label>
+            <select class="form-select" id="rol" name="rol" required>
+              <option value="Empleado">Empleado</option>
+              <option value="Gerente">Gerente</option>
+              <option value="Desarrollador">Desarrollador</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="salarioBase" class="form-label"
+              >Salario Base(Bruto anual):
+            </label>
+            <input
+              type="number"
+              class="form-control"
+              id="salarioBase"
+              name="salarioBase"
+              required
+            />
+          </div>
+          <div
+            class="col-md-6"
+            id="campoEspecificoGerente"
+            style="display: none"
+          >
+            <label for="departamento" class="form-label">Departamento:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="departamento"
+              name="departamento"
+            />
+            <label for="nSubordinados" class="form-label"
+              >Número de Subordinados:</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="nSubordinados"
+              name="nSubordinados"
+            />
+            <label for="complementoSalarial" class="form-label"
+              >Complemento Salarial:</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="complementoSalarial"
+              name="complementoSalarial"
+            />
+          </div>
+          <div
+            class="col-md-6"
+            id="campoEspecificoDesarrollador"
+            style="display: none"
+          >
+            <label for="lenguajeProgramacion" class="form-label"
+              >Lenguaje de Programación:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="lenguajeProgramacion"
+              name="lenguajeProgramacion"
+            />
+            <label for="proyectoAsignado" class="form-label"
+              >Proyecto Asignado:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="proyectoAsignado"
+              name="proyectoAsignado"
+            />
+            <label for="experiencia" class="form-label"
+              >Experiencia (años):</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="experiencia"
+              name="experiencia"
+            />
+          </div>
+        </div>
+        <button type="submit" id="agregarEmpleadoBoton" class="btn btn-primary">
+          Agregar Empleado
+        </button>
+      </form>
+      <hr />
+      <h2>Lista de Empleados</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Salario</th>
+            <!-- Columnas adicionales para propiedades específicas de Gerente o Desarrollador -->
+          </tr>
+        </thead>
+        <tbody id="listaEmpleados">
+          <!-- Los empleados agregados se mostrarán aquí -->
+        </tbody>
+      </table>
+      <br />
+      <hr />
+      <!-- Sección para calcular salario total -->
+      <div class="mt-4">
+        <h2>Calcular Salario Total</h2>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="calcularSalario" class="form-label"
+              >Calcular Salario Total:</label
+            >
+            <button id="calcularSalario" class="btn btn-success">
+              Calcular
+            </button>
+          </div>
+          <div class="col-md-6">
+            <label for="salarioTotal" class="form-label">Salario Total:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="salarioTotal"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agregar enlaces a los archivos JS de Bootstrap y jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Tu script de JavaScript para la gestión de empleados irá aquí -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
