@@ -22,6 +22,7 @@ let empleadoAñadidoId = 1;
 /**
  * Maneja la inserción de empleados en la interfaz y en el almacenamiento local.
  * @param {Event} e - El evento de envío del formulario.
+ * @return {void}
  */
 function handlerInsertarEmpleado(e) {
   e.preventDefault();
@@ -108,6 +109,8 @@ function handlerInsertarEmpleado(e) {
 
 /**
  * Actualiza la lista de empleados en la interfaz.
+ * @param {void}
+ * @return {void}
  */
 function actualizarListaEmpleados() {
   const listaEmpleados = document.getElementById("listaEmpleados");
@@ -139,6 +142,8 @@ function actualizarListaEmpleados() {
 
 /**
  * Calcula el salario total de todos los empleados y lo muestra en la interfaz.
+ * @param {void}
+ * @return {void}
  */
 function calcularSalarioTotal() {
   const empleadosExistentes =

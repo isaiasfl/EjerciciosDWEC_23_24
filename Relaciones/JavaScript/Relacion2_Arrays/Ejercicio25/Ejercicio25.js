@@ -14,7 +14,7 @@
  * @param {number[]} arr - Un array de números.
  * @param {number} numInicial - El número inicial del rango.
  * @param {number} numFinal - El número final del rango.
- * @returns {number[]} - Un array que contiene los números faltantes en el rango.
+ * @returns {number[]} arr - Un array que contiene los números faltantes en el rango.
  */
 const numerosFaltantes = (arr, numInicial, numFinal) => {
   const arrFaltantes = [];
