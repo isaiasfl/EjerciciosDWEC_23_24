@@ -6,9 +6,9 @@
 
 /**
  * Función que devuelve el índice en el que se encuentra el elemento buscado dentro de un array
- * @param {Array} arr // Este es el array que se pide en la función
- * @param {Number} elemento  // Este es elemento que estamos buscando en el array en este caso
- * @returns {Number} // Este número es el índice de mi elemento encontrado
+ * @param {Array} arr - Este es el array que se pide en la función
+ * @param {Number} elemento - Este es elemento que estamos buscando en el array en este caso
+ * @returns {Number} - Este número es el índice de mi elemento encontrado
  */
 const buscarElemento = (arr,elemento) => {
     let foundIndex = -1; // "foundIndex" se inicializa a -1 porque aún no se ha encontrado el elemento
