@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Ejercicio 7</title>
+  </head>
+  <body>
+    <header class="bg-primary text-center py-2">
+      <h1 class="text-light">Ejercicio 7</h1>
+    </header>
+
+    <div class="d-flex p-3 form-control" id="vista">
+      
+      <div class=" justify-content-center" >
+        <button class="btn btn-primary m-3" id="mostrarHabitaciones">Mostrar Habitaciones diponibles</button>
+        <button class="btn btn-primary m-3" id="ocultarHabitaciones" style="display: none">Ocultar Habitaciones diponibles</button>
+        <button class="btn btn-primary m-3" id="mostrarReservas">Mostrar Habitaciones reservadas</button>
+        <button class="btn btn-primary m-3" id="ocultarReservas" style="display: none">Ocultar Habitaciones reservadas</button>
+      </div>
+
+      <div class="container bg-primary p-3 m-3 text-center" id="vistaHotel">
+
+        <h1 class="text-light">Habitaciones del Hotel</h1>
+
+        <form class="form-control">
+          <div class="mb-3">
+            <label for="numHabitacion" class="form-label">Número de Habitación</label>
+            <input type="text" id="numHabitacion" class="form-control" required/>
+          </div>
+
+          <div class="mb-3">
+            <label for="precioReserva" class="form-label">Precio de reserva</label>
+            <input type="text" id="precioReserva" class="form-control" required/>
+          </div>
+
+          <div class="d-flex justify-content-end">
+            <button class="btn btn-primary" id="agregarHabitacion">Agregar Habitación</button>
+          </div>
+
+        </form>
+
+        <div class="bg-white" id="habitacionesDisponibles" style="display: none;">
+          
+        </div>
+
+        <div class="bg-white" id="habitacionesReservadas" style="display: none;">
+          
+        </div>
+      </div>
+
+    </div>
+
+    <!--Scripts-->
+    <!--
+      <script type="module" src="/mainLiteral.js"></script>
+    -->
+    <!--
+      <script type="module" src="/mainFuncional.js"></script>
+    -->
+
+      <script type="module" src="/mainClase.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
