@@ -104,8 +104,8 @@ VehiculoFunction.prototype.acelerar = function () {
     : console.log("No se puede acelerar más");
 };
 
-export function CocheFunction() {
-  VehiculoFunction.call(this);
+export function CocheFunction(marca, modelo, año) {
+  VehiculoFunction.call(this, marca, modelo, año);
 }
 
 CocheFunction.prototype = Object.create(VehiculoFunction.prototype);
@@ -120,8 +120,8 @@ CocheFunction.prototype.frenar = function () {
   this._velocidad = 0;
 };
 
-export function MotoFunction() {
-  VehiculoFunction.call(this);
+export function MotoFunction(marca, modelo, año) {
+  VehiculoFunction.call(this, marca, modelo, año);
 }
 
 MotoFunction.prototype = Object.create(VehiculoFunction.prototype);
