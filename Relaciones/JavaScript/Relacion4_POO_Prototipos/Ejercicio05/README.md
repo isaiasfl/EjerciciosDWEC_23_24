@@ -16,14 +16,6 @@
 
 Una vez posicionado en la carpeta del ejercicio es necesario instalar las dependencias con `npm install` o `pnpm install`
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
 ## Pruebas ⚙️
 Vemos que aparecen los comentarios del usuario 2 en la publicación 3
 ![Alt text](public/image2.png)
