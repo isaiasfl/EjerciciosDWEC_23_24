@@ -9,8 +9,8 @@
 /**
  * Las cadenas que esten vacías seran reemplazadas en un nuevo objeto por NULL-
  * 
- * @param {Object} - Pasamos un objeto para comprobar si tiene cadenas vacías
- * @returns { Object } - Devuelve el objeto con las cadenas vacías cambiadas por NULL
+ * @param {Object} obj - Pasamos un objeto para comprobar si tiene cadenas vacías
+ * @returns { Object } Object - Devuelve el objeto con las cadenas vacías cambiadas por NULL
  */
 function eliminarNull(obj) {
     for (const key in obj) {

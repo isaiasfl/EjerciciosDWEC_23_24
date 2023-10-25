@@ -9,7 +9,7 @@
  * 
  * @param { Array } arr - Array en el que buscaremos el elemento a borrar
  * @param { * } elemento - Elemento que queremos borrar su primera aparición
- * @returns { Array } - Devuelve el array resultante con el elemento borrado si está
+ * @returns { Array } Array - Devuelve el array resultante con el elemento borrado si está
  */
 const eliminarElemento = (arr,elemento) => arr.splice(arr.indexOf(elemento),1);
 // Con el splice le hago que devuelva un array que quitamos la posicion que este el elemento
