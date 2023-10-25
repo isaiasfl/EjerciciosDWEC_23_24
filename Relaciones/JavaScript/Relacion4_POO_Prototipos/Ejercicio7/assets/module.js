@@ -1,3 +1,10 @@
+/**
+ * @author: Abel Martínez Peinado
+ * @description: Crea un sistema de reservas de hoteles en JavaScript que incluye las siguientes clases:
+Hotel, Habitacion, Reserva. El sistema debe permitir la creación de hoteles con habitaciones, la
+realización de reservas y el cálculo del costo total de las reservas
+ */
+
 // Objetos Literales
 export const HotelLiteral = {
     _habitaciones : [],

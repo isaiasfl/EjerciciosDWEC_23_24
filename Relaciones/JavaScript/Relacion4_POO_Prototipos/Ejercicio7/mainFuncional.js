@@ -1,6 +1,13 @@
 // Importación de clases desde otro archivo
 import { HotelFuncional, HabitacionFuncional, ReservaFuncional } from "./assets/module.js";
 
+/**
+ * @author: Abel Martínez Peinado
+ * @description: Crea un sistema de reservas de hoteles en JavaScript que incluye las siguientes clases:
+Hotel, Habitacion, Reserva. El sistema debe permitir la creación de hoteles con habitaciones, la
+realización de reservas y el cálculo del costo total de las reservas
+ */
+
 // Creación de una instancia de la clase HotelFuncional
 const hotel = new HotelFuncional();
 
