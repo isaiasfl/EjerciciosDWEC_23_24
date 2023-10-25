@@ -9,9 +9,9 @@
 /**
  * Devuelve un objeto con las propiedades que esten en la lista pasada como parámetro
  * que se encuentren en el objeto pasado como parámetro.
- * @param {object} obj
- * @param {Array} propiedades
- * @returns {object}
+ * @param {object} obj - objeto del que se extraerán las propiedades
+ * @param {Array} propiedades - lista de propiedades pasadas como String
+ * @returns {object} - objeto que contiene las propiedades de la lista que están en el objeto apsado como parámetro.
  */
 const extraerPropiedades = (obj, propiedades) => {
   /*Aplicamos un reduce a la lista de propiedades, donde el acumulador será un objeto vacío y por cada propiedad, comprobamos
@@ -29,9 +29,9 @@ const extraerPropiedades = (obj, propiedades) => {
 /**
  * Devuelve un objeto con las propiedades que esten en la lista pasada como parámetro
  * que se encuentren en el objeto pasado como parámetro.
- * @param {object} obj
- * @param {Array} propiedades
- * @returns {object}
+ * @param {object} obj - objeto del que se extraerán las propiedades
+ * @param {Array} propiedades - lista de propiedades pasadas como String
+ * @returns {object} - objeto que contiene las propiedades de la lista que están en el objeto apsado como parámetro.
  */
 const extraerPropiedades2 = (obj, propiedades) =>
   /*Aplicamos un reduce a la lista de propiedades, donde el acumulador será un objeto vacío y por cada propiedad, comprobamos
@@ -53,9 +53,9 @@ const extraerPropiedades2 = (obj, propiedades) =>
 /**
  * Devuelve un objeto con las propiedades que esten en la lista pasada como parámetro
  * que se encuentren en el objeto pasado como parámetro.
- * @param {object} obj
- * @param {Array} propiedades
- * @returns {object}
+ * @param {object} obj - objeto del que se extraerán las propiedades
+ * @param {Array} propiedades- lista de propiedades pasadas como String
+ * @returns {object} - objeto que contiene las propiedades de la lista que están en el objeto apsado como parámetro.
  */
 const extraerPropiedades3 = (obj, propiedades) =>
   /*Aplicamos un reduce a la lista de propiedades, donde el acumulador será un objeto vacío y por cada propiedad, comprobamos
