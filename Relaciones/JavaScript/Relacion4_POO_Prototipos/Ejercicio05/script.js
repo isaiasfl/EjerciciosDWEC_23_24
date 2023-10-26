@@ -17,7 +17,7 @@ const btnEnviar = document.getElementById('btnEnviar'); // Con el DOM guardo el 
 // ------ FUNCIONES ------
 
 /**
- * Rellena el LocalStorage con los respectivos datos importados de JSONPlaceHolder de un archivo externo.
+ * Guarda en el LocalStorage con los respectivos datos importados de JSONPlaceHolder de un archivo externo.
  * returns {void}
  */
 function rellenarLocalStorage(){
@@ -27,7 +27,7 @@ function rellenarLocalStorage(){
 }
 
 /**
- * Rellena usando DOM el select de publicaciones con los datos extraidos del LocalStorage con la clave 'posts'.
+ * Guarda usando DOM el select de publicaciones con los datos extraidos del LocalStorage con la clave 'posts'.
  * returns {void}
  */
 function rellenarSelectPubs(){
@@ -40,7 +40,7 @@ function rellenarSelectPubs(){
 }
 
 /**
- * Rellena usando DOM el select de usuarios con los datos extraidos del LocalStorage con la clave 'usuarios'.
+ * Guarda usando DOM el select de usuarios con los datos extraidos del LocalStorage con la clave 'usuarios'.
  * @returns {void}
  */
 function rellenarSelectUsers(){
