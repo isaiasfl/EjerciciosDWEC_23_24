@@ -29,5 +29,5 @@ let dividirFragmento=(arr, tamano) => {
 const array1 = [9,4,7,2,6,3,1,8,5];
 const array2 = [9,4,7,2,6,3,1,8,5,8];
 
-console.log(dividirFragmento(array1 , 3));
-console.log(dividirFragmento(array2 , 3));
+console.log(dividirFragmento(array1 , 3)); //[[9,4,7],[2,6,3],[1,8,5]]
+console.log(dividirFragmento(array2 , 3)); //[[9,4,7],[2,6,3],[1,8,5],[8]]

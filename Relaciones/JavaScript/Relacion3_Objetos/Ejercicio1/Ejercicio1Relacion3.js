@@ -31,5 +31,5 @@ const obj2 = {
     apellido:"Jiménez",
 }
 
-console.log(getPais(obj1));
-console.log(getPais(obj2));
+console.log(getPais(obj1)); // "España"
+console.log(getPais(obj2)); // "No encontrado"
