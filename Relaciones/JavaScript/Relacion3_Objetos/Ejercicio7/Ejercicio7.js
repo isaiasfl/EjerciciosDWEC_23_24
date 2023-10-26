@@ -33,11 +33,11 @@ function matriz(obj){
 let matriz2 = (obj = Object) => typeof(obj) === "object" && obj !== null && !Array.isArray(obj) ?  Object.keys(obj) : alert("El elemento no es un objeto o es nulo");
 
 //----- Tests -----
-console.log(matriz(objeto));
-console.log(matriz2(objeto));
+console.log(matriz(objeto)); //Printea en consola la matriz obtenida con las claves del objeto
+console.log(matriz2(objeto)); //Printea en consola la matriz obtenida con las claves del objeto
 
-matriz(array);
-matriz2(array);
+matriz(array); //Provoca una alerta porque el argumento introducido no es un objeto
+matriz2(array); //Provoca una alerta porque el argumento introducido no es un objeto
 
-matriz(nulo);
-matriz2(nulo);
+matriz(nulo); //Provoca una alerta porque el argumento introducido es nulo
+matriz2(nulo); //Provoca una alerta porque el argumento introducido es nulo
