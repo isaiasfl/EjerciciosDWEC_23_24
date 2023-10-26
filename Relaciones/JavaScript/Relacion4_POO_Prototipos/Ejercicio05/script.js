@@ -17,7 +17,7 @@ const btnEnviar = document.getElementById('btnEnviar'); // Con el DOM guardo el 
 // ------ FUNCIONES ------
 
 /**
- * description: Rellena el LocalStorage con los respectivos datos importados de JSONPlaceHolder de un archivo externo.
+ * Rellena el LocalStorage con los respectivos datos importados de JSONPlaceHolder de un archivo externo.
  * returns {void}
  */
 function rellenarLocalStorage(){
@@ -27,7 +27,7 @@ function rellenarLocalStorage(){
 }
 
 /**
- * description: Rellena usando DOM el select de publicaciones con los datos extraidos del LocalStorage con la clave 'posts'.
+ * Rellena usando DOM el select de publicaciones con los datos extraidos del LocalStorage con la clave 'posts'.
  * returns {void}
  */
 function rellenarSelectPubs(){
@@ -40,7 +40,7 @@ function rellenarSelectPubs(){
 }
 
 /**
- * description: Rellena usando DOM el select de usuarios con los datos extraidos del LocalStorage con la clave 'usuarios'.
+ * Rellena usando DOM el select de usuarios con los datos extraidos del LocalStorage con la clave 'usuarios'.
  * @returns {void}
  */
 function rellenarSelectUsers(){
@@ -53,7 +53,7 @@ function rellenarSelectUsers(){
 }
 
 /**
- * 
+ * Función que crea al tipo de usuario según sea eel userType pasado como parámetro
  * @param {string} userType - tipo de creación de usuario querida (Literla, Funcional o Clases)
  * @returns {Object} - tipo de usuario devuelto
  */
@@ -65,7 +65,8 @@ function crearUsuario(userType){
   }
 
   if(userType === "Usuario Funcional"){
-    usuario = Object.create(UsuarioFuncional)
+    // usuario = Object.create(UsuarioFuncional);
+    usuario = new UsuarioFuncional();
   }
 
   if(userType === "Usuario Clases"){

@@ -26,7 +26,7 @@ export const usuarioLiteral = {
   },
 
   /**
-   * @description: Función que captura el usuario y la publicación seleccionada y filtra todos los comentarios para devolver solo los correspondientes.
+   * Función que captura el usuario y la publicación seleccionada y filtra todos los comentarios para devolver solo los correspondientes.
    * @param {DocumentFragment} post - Publicacíon elegida en el select del formulario
    * @param {DocumentFragment} user - Usuario elegido en el select del formulario
    * @returns {Array} - Array con los comentarios especificos del usuario en la publicación
