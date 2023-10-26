@@ -9,6 +9,7 @@
  * Esta funcion usa el metodo reduce, en este sesult actua como acumulador y array como el valor de cada iteración, 
  * en cada iteracion se concatena el valor array con el acumulador result
  * @param  {...any} array pasamos un numero indefinido de arrays
+ * @returns {array} Esta función devuelve un array con todos los arrays combinados.
  */
 const unirArrays = (...arrays) => arrays.reduce((result, array) => result.concat(array), []);
 
