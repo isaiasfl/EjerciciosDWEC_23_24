@@ -5,10 +5,10 @@
     correspondientes de arr1 y arr2.
  */
 /**
- * 
+ * @description La función suma dos arrays.
  * @param {Array} arr1 
  * @param {Array} arr2 
- * @returns 
+ * @returns Devuelve un array con la suma de dos arrays.
  */
 
 const a=[1,2,3];
