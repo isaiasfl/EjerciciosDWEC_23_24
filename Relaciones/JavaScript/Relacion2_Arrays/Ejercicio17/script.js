@@ -11,19 +11,6 @@
  * @param {number} escalar Nuemro por el que multiplicamos la matriz
  * @returns Nueva matriz de numeros
  */
-/**
- * @author: Raisa Julia Ochoa Domínguez
- *@description: Escribe una función llamada multiplicarMatrizPorEscalar que tome una matriz matriz y un número escalar.
- *La función debe multiplicar cada elemento de la matriz por el escalar y devolver una nueva matriz con los
- *resultados.
- */
-
-/**
- * Función con la que tomaremos una matriz y numero escalar que utilizaremos para multiplicar la matriz
- * @param {[Array]} matriz Matriz de numeros a multiplicar
- * @param {number} escalar Nuemro por el que multiplicamos la matriz
- * @returns Nueva matriz de numeros
- */
 function multiplicarMatrizPorEscalar(matriz, escalar) {
   if (typeof escalar !== "number") {
     return "El escalar introducido no es un número válido";
