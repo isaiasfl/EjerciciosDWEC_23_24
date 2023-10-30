@@ -20,7 +20,7 @@ git config --global user.name "tu_nombre_de_github"
 1. Clonamos el repositorio en local con:
 
    ```bash
-    git clone https://github.com/isaiasfl/EjerciciosDWEC_23_24
+    git clone https://github.com/TU_NICK_DE_GITHUB/EjerciciosDWEC_23_24
    ```
 
 1. Creamos una rama para no interferir en la main de partida y nos posicionamos en ella:

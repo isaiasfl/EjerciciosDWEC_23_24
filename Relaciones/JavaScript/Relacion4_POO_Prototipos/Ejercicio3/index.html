@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Simulador de Coches</title>
+  </head>
+  <body>
+    <div class="window">
+      <section class="car-section p-3">
+        <h2 class="text-center">Coche</h2>
+        <form action="" id="car-prototype">
+          <div class="mb-3">
+            <label for="marca" class="form-label">Marca</label>
+            <input type="text" class="form-control" id="marca" required />
+          </div>
+          <div class="mb-3">
+            <label for="modelo" class="form-label">Modelo</label>
+            <input type="text" class="form-control" id="modelo" />
+          </div>
+          <div class="mb-3">
+            <label for="año" class="form-label">Año</label>
+            <input type="number" class="form-control" id="año" />
+          </div>
+          <button class="btn btn-primary" id="car-start">Arrancar</button>
+          <button class="btn btn-primary" id="car-acelerar">Acelerar</button>
+          <button class="btn btn-primary" id="car-stop">Frenar</button>
+        </form>
+      </section>
+      <section class="moto-section p-3">
+        <h2 class="text-center">Motos</h2>
+        <form action="" id="moto-prototype">
+          <div class="mb-3">
+            <label for="m-marca" class="form-label">Marca</label>
+            <input type="text" class="form-control" id="m-marca" required />
+          </div>
+          <div class="mb-3">
+            <label for="m-modelo" class="form-label">Modelo</label>
+            <input type="text" class="form-control" id="m-modelo" />
+          </div>
+          <div class="mb-3">
+            <label for="m-año" class="form-label">Año</label>
+            <input type="number" class="form-control" id="m-año" />
+          </div>
+          <button class="btn btn-primary" id="moto-start">Arrancar</button>
+          <button class="btn btn-primary" id="moto-acelerar">Acelerar</button>
+          <button class="btn btn-primary" id="moto-stop">Frenar</button>
+        </form>
+      </section>
+      <section class="car-animation">
+        <section id="car"></section>
+        <section id="motorbike"></section>
+      </section>
+    </div>
+    <!-- <script type="module" src="./script-objetosLiterales.js"></script> -->
+    <!-- <script type="module" src="./script-funcionesConstructoras.js"></script> -->
+    <script type="module" src="./script-clases.js"></script>
+  </body>
+</html>

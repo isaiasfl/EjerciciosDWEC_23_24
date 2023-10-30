@@ -1,9 +1,9 @@
-# Ejercicios : 💻 Desarrollo Web Entorno Cliente 23_24 🗓️
+## Ejercicios : 💻 Desarrollo Web Entorno Cliente 23_24 🗓️
 
 A través de este repositorio se va a poner a disposición del alumnado, relaciones de ejercicios que se deben de entregar realizando un Pull Request a este repositorio.
 En 📁 [este fichero](https://github.com/isaiasfl/EjerciciosDWEC_23_24/blob/main/Ejercicios_asociados_a_cada_alumno_a.md) aparece cada alumno/a con el ejercicio que tiene asociado:
 
-### Nota Importante
+# NOTA IMPORTANTE
 
 - Todos los ejercicios deben de tener una cabecera como la explicada en clase, con vuestro nombre, descripción, etc.
 - Todas las funciones deben de estar documentadas.
@@ -36,7 +36,7 @@ Un "Pull Request" es una forma de proponer cambios (en nuestro caso entregar los
 1. Clona tu Fork del repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/isaiasfl/EjerciciosDWEC_23_24.git
+   git clone https://github.com/VUESTRO_NOMBRE/EjerciciosDWEC_23_24.git
    ```
 
 2. Crea una **nueva rama** en la que trabajar. Esto te ayudará a mantener tus cambios separados de la rama principal del proyecto.
