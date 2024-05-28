@@ -1,13 +1,13 @@
 /**
  * @author: José Manuel Cordó Castillo
  * @description: Crea un simulador de vehículos en JavaScript. Define una clase base Vehiculo con
-propiedades comunes como marca, modelo, año, y un método acelerar. Luego, crea dos clases
+propiedades comunes como marca, modelo, anio, y un método acelerar. Luego, crea dos clases
 derivadas, Coche y Moto, que hereden de Vehiculo y tengan métodos específicos, como arrancar
 y frenar. Este script contiene el ejercicio realizado con Funciones Constructoras.
  */
 
 // ------------------- IMPORTS -------------------
-import { MotoFunction, CocheFunction } from "./assets/modules";
+import { CocheFunction, MotoFunction } from "./assets/modules";
 
 // ------------------- VARIABLES GLOBALES -------------------
 //Variables relacionadas con Coche
@@ -15,7 +15,7 @@ const startCarButton = document.getElementById("car-start");
 const acelerarCarButton = document.getElementById("car-acelerar");
 const stopCarButton = document.getElementById("car-stop");
 const carModelForm = document.getElementById("modelo");
-const carYearForm = document.getElementById("año");
+const carYearForm = document.getElementById("anio");
 const carBrandForm = document.getElementById("marca");
 const carWindow = document.getElementById("car");
 //Variables relacionadas con Moto
@@ -23,7 +23,7 @@ const startMotoButton = document.getElementById("moto-start");
 const acelerarMotoButton = document.getElementById("moto-acelerar");
 const stopMotoButton = document.getElementById("moto-stop");
 const motoModelForm = document.getElementById("m-modelo");
-const motoYearForm = document.getElementById("m-año");
+const motoYearForm = document.getElementById("m-anio");
 const motoBrandForm = document.getElementById("m-marca");
 const motoWindow = document.getElementById("motorbike");
 let coche = null;
@@ -40,15 +40,16 @@ const handleStartButton = (e) => {
   e.preventDefault();
   //Recogemos la info del formulario y creamos un objeto Coche utilizando funciones constructoras
   const marca = carBrandForm.value;
-  const año = carYearForm.value;
+  const anio = carYearForm.value;
   const modelo = carModelForm.value;
-  coche = new CocheFunction(marca, modelo, año);
-
+  coche = new CocheFunction(marca, modelo, anio);
+  console.log(coche);
+  //console.log(Object.acelerar());
   //Arrancamos el coche
   coche.arrancar();
   //Introducimos en el bloque HTML correspondiente la información del coche y la imagen
   carWindow.innerHTML = `<p>${coche.marca}, ${coche.modelo}, ${
-    coche.año
+    coche.anio
   } -----> <span id="velocidad">${coche.velocidad * 10} km/h</span></p>`;
   carWindow.innerHTML += '<img id="coche" src="./assets/img/car.png" />';
 };
@@ -115,16 +116,16 @@ const handleMotoStartButton = (e) => {
 
   //Recogemos la info del formulario y creamos un objeto Moto utilizando funciones constructoras.
   const marca = motoBrandForm.value;
-  const año = motoYearForm.value;
+  const anio = motoYearForm.value;
   const modelo = motoModelForm.value;
-  moto = new MotoFunction(marca, modelo, año);
+  moto = new MotoFunction(marca, modelo, anio);
 
   //Arrancamos la moto
   moto.arrancar();
 
   //Introducimos en el bloque HTML correspondiente la información del coche y la imagen
   motoWindow.innerHTML = `<p>${moto.marca}, ${moto.modelo}, ${
-    moto.año
+    moto.anio
   } -----> <span id="m-velocidad">${moto.velocidad * 10} km/h</span></p>`;
   motoWindow.innerHTML += '<img id="moto" src="./assets/img/motorbike.png" />';
 };

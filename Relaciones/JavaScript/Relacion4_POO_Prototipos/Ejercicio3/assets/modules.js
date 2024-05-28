@@ -1,7 +1,7 @@
 const vehiculoLiteral = {
   _marca: "",
   _modelo: "",
-  _año: 1900,
+  _anio: 1900,
   _velocidad: 0,
 
   //GETTERS
@@ -11,8 +11,8 @@ const vehiculoLiteral = {
   get modelo() {
     return this._modelo;
   },
-  get año() {
-    return this._año;
+  get anio() {
+    return this._anio;
   },
   get velocidad() {
     return this._velocidad;
@@ -25,8 +25,8 @@ const vehiculoLiteral = {
   set modelo(newModelo) {
     this._modelo = newModelo;
   },
-  set año(newAño) {
-    this._año = newAño;
+  set anio(newAnio) {
+    this._anio = newAnio;
   },
 
   //MÉTODOS
@@ -58,10 +58,10 @@ motoLiteral.frenar = function () {
   this._velocidad = 0;
 };
 
-function VehiculoFunction(marca = "", modelo = "", año = 1900) {
+function VehiculoFunction(marca = "", modelo = "", anio = 1900) {
   this._marca = marca;
   this._modelo = modelo;
-  this._año = año;
+  this._anio = anio;
   this._velocidad = 0;
 
   Object.defineProperty(this, "marca", {
@@ -82,12 +82,12 @@ function VehiculoFunction(marca = "", modelo = "", año = 1900) {
     },
   });
 
-  Object.defineProperty(this, "año", {
+  Object.defineProperty(this, "anio", {
     get: function () {
-      return this._año;
+      return this._anio;
     },
-    set: function (newAño) {
-      this._año = newAño;
+    set: function (newAnio) {
+      this._anio = newAnio;
     },
   });
 
@@ -104,8 +104,8 @@ VehiculoFunction.prototype.acelerar = function () {
     : console.log("No se puede acelerar más");
 };
 
-export function CocheFunction(marca, modelo, año) {
-  VehiculoFunction.call(this, marca, modelo, año);
+export function CocheFunction(marca, modelo, anio) {
+  VehiculoFunction.call(this, marca, modelo, anio);
 }
 
 CocheFunction.prototype = Object.create(VehiculoFunction.prototype);
@@ -120,8 +120,8 @@ CocheFunction.prototype.frenar = function () {
   this._velocidad = 0;
 };
 
-export function MotoFunction(marca, modelo, año) {
-  VehiculoFunction.call(this, marca, modelo, año);
+export function MotoFunction(marca, modelo, anio) {
+  VehiculoFunction.call(this, marca, modelo, anio);
 }
 
 MotoFunction.prototype = Object.create(VehiculoFunction.prototype);
@@ -137,10 +137,10 @@ MotoFunction.prototype.frenar = function () {
 };
 
 class VehiculoClass {
-  constructor(marca = "", modelo = "", año = 1900) {
+  constructor(marca = "", modelo = "", anio = 1900) {
     this._marca = marca;
     this._modelo = modelo;
-    this._año = año;
+    this._anio = anio;
     this._velocidad = 0;
   }
 
@@ -160,12 +160,12 @@ class VehiculoClass {
     this._modelo = newModelo;
   }
 
-  get año() {
-    return this._año;
+  get anio() {
+    return this._anio;
   }
 
-  set año(newAño) {
-    this._año = newAño;
+  set anio(newAnio) {
+    this._anio = newAnio;
   }
 
   get velocidad() {
